@@ -1,0 +1,47 @@
+/* Styels in Index Page */
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Styles in Sign up Page */
+.login-img img {
+  height: 100%;
+  object-fit: cover;
+}
+.sign-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Card Styles */
+.card {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:75%;
+  width:75%;
+  position:absolute;
+}
+
